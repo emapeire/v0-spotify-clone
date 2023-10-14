@@ -14,12 +14,15 @@ export default function NavComponent() {
           strokeWidth="2"
           viewBox="0 24"
           width="24"
+          xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M9 18V5l12-2v13" />
           <circle cx="6" cy="18" r="3" />
           <circle cx="18" cy="16" r="3" />
         </svg>
-        <span className="font-bold text-xl">Spotify</span>
+        <Link href="/">
+          <span className="font-bold text-xl">Spotify</span>
+        </Link>
       </div>
       <div className="relative w-64">
         <svg
@@ -32,6 +35,7 @@ export default function NavComponent() {
           strokeWidth="2"
           viewBox="0 24"
           width="24"
+          xmlns="http://www.w3.org/2000/svg"
         >
           <circle cx="11" cy="11" r="8" />
           <path d="m21 21-4.3-4.3" />
@@ -39,13 +43,13 @@ export default function NavComponent() {
         <input className="pl-10 bg-gray-800 rounded-full w-full py-2 text-white" placeholder="Search" type="text" />
       </div>
       <nav className="flex gap-4">
-        <Link className="hover:text-green-500" href="#">
+        <Link className="hover:text-green-500" href="/">
           Home
         </Link>
-        <Link className="hover:text-green-500" href="#">
+        <Link className="hover:text-green-500" href="/library">
           Library
         </Link>
-        <Link className="hover:text-green-500" href="#">
+        <Link className="hover:text-green-500" href="/premium">
           Premium
         </Link>
       </nav>

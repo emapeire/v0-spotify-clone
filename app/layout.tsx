@@ -19,9 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavComponent />
-        {children}
-        <PlayerComponent />
+        <main className='flex flex-col h-screen'>
+          <NavComponent />
+          <div className='flex-1 overflow-auto min-h-0'>
+            {children}
+          </div>
+          <PlayerComponent />
+        </main>
       </body>
     </html>
   )

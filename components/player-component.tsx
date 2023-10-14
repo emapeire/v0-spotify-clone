@@ -2,23 +2,13 @@ export default function PlayerComponent() {
   return (
     <footer className="flex items-center justify-between p-4 bg-black text-white">
       <div className="flex items-center gap-4">
-        <svg
-          className="h-6 w-6"
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polygon points="19 20 9 12 4" />
-          <line x1="5" x2="5" y1="19" y2="5" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-back" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 5v14l-12 -7z"></path>
+          <path d="M4 5l0 14"></path>
         </svg>
         <svg
-          className="h-8 w-8"
+          className="h-6 w-6"
           fill="none"
           height="24"
           stroke="currentColor"
@@ -33,26 +23,16 @@ export default function PlayerComponent() {
           <line x1="10" x2="10" y1="15" y2="9" />
           <line x1="14" x2="14" y1="15" y2="9" />
         </svg>
-        <svg
-          className="h-6 w-6"
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polygon points="5 4 15 12 20" />
-          <line x1="19" x2="19" y1="5" y2="19" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-forward" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M4 5v14l12 -7z"></path>
+          <path d="M20 5l0 14"></path>
         </svg>
       </div>
       <div className="flex-1 mx-8">
         <div className="flex justify-between items-center mb-1">
-          <span className="text-sm">Track Title - Artist Name</span>
-          <span className="text-sm">3:21</span>
+          <span className="text-sm">Enter Sadman - Metallica</span>
+          <span className="text-sm">5:31</span>
         </div>
         <div className="relative h-1 bg-gray-800 rounded-full">
           <div
@@ -64,21 +44,11 @@ export default function PlayerComponent() {
         </div>
       </div>
       <div className="flex items-center gap-2">
-        <svg
-          className="h-6 w-6"
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <polygon points="11 5 6 9 2 15 19" />
-          <path d="M15.54 8.46a5 5 0 1 7.07" />
-          <path d="M19.07 4.93a10 10 0 1 14.14" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-volume" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M15 8a5 5 0 0 1 0 8"></path>
+          <path d="M17.7 5a9 9 0 0 1 0 14"></path>
+          <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5"></path>
         </svg>
         <div className="relative w-24 h-1 bg-gray-800 rounded-full">
           <div
