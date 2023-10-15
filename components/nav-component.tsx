@@ -12,7 +12,7 @@ export default function NavComponent() {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          viewBox="0 24"
+          viewBox="0 0 24 24"
           width="24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -33,7 +33,7 @@ export default function NavComponent() {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          viewBox="0 24"
+          viewBox="0 0 24 24"
           width="24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -46,10 +46,10 @@ export default function NavComponent() {
         <Link className="hover:text-green-500" href="/">
           Home
         </Link>
-        <Link className="hover:text-green-500" href="/library">
+        <Link className="hover:text-green-500" href="#">
           Library
         </Link>
-        <Link className="hover:text-green-500" href="/premium">
+        <Link className="hover:text-green-500" href="#">
           Premium
         </Link>
       </nav>
